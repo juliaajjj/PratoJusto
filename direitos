@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seus Direitos na Mesa - Prato Justo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      margin: 0;
+      padding: 0;
+      color: #2f5e3d;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: #ffe29b; /* Alterado para amarelo */
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card {
+      display: flex;
+      align-items: flex-start;
+      background-color: #d6f0d8;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      width: 50px;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+    .card-content h3 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+      color: #2f5e3d;
+    }
+    .card-content p {
+      margin: 0;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #c2e6c7;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    a {
+      color: #2f5e3d;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Seus Direitos na Mesa</h1>
+</header>
+
+<main>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/3292/3292568.png" alt="Balança da Justiça">
+    <div class="card-content">
+      <h3>Direito à Informação Clara</h3>
+      <p>Art. 6º, inciso III no código do consumidor – São direitos básicos do consumidor: a informação adequada e clara sobre os diferentes produtos e serviços, com especificação correta de quantidade, características, composição, qualidade e preço.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Prato com alimentos">
+    <div class="card-content">
+      <h3>Direito à Qualidade e Segurança Alimentar</h3>
+      <p>Art. 8º Código do consumidor – Os produtos e serviços colocados no mercado não acarretarão riscos à saúde ou segurança dos consumidores.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="c:\Users\Gabriel\Downloads\price-tag.png" alt="Preço">
+    <div class="card-content">
+      <h3>Direito à Transparência nos Preços</h3>
+      <p>Art. 31 código do consumidor – A oferta deve conter informações corretas e ostensivas, inclusive sobre preços.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/5872/5872077.png" alt="Lupa">
+    <div class="card-content">
+      <h3>Direito à Reclamação</h3>
+      <p>Art. 18 –  § 1° Não sendo o vício sanado no prazo máximo de trinta dias, pode o consumidor exigir, alternativamente e à sua escolha:
+
+        I - a substituição do produto por outro da mesma espécie, em perfeitas condições de uso;
+
+        II - a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos;
+
+        III - o abatimento proporcional do preço.
+
+        § 2° Poderão as partes convencionar a redução ou ampliação do prazo previsto no parágrafo anterior, não podendo ser inferior a sete nem superior a cento e oitenta dias. Nos contratos de adesão, a cláusula de prazo deverá ser convencionada em separado, por meio de manifestação expressa do consumidor.
+
+
+	•	Art. 26 – O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em:
+
+        I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis;
+
+        II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1057/1057235.png" alt="Proibido engano">
+    <div class="card-content">
+      <h3>Direito à Proteção contra Publicidade Enganosa</h3>
+      <p>Art. 6º, IV código do consumidor – Proteção contra publicidade enganosa e abusiva.
+		Art. 37 codigo do consumidor – É proibida toda publicidade enganosa ou abusiva.</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Prato Justo - Todos os direitos reservados</p>
+  <p><a href="index.html">Voltar à página inicial</a></p>
+</footer>
+
+</body>
+</html>
