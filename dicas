@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>10 Dicas Nutricionais – Vida Saudável</title>
+  <meta name="description" content="10 dicas legais e nutricionais para uma vida mais saudável. Conteúdo claro e simples.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e6f7f1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #1c5e40;
+      margin-bottom: 30px;
+    }
+    h3 {
+      color: #1c5e40;
+    }
+    p {
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #1c5e40;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #13452f;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>10 Dicas Nutricionais para uma Vida Mais Saudável</h1>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🍎 1. Comece o dia com um bom café da manhã</h3>
+      <p>Inclua frutas, proteínas magras e fibras para energia sustentada e foco logo cedo.</p>
+    </div>
+
+    <div class="card">
+      <h3>💧 2. Beba bastante água</h3>
+      <p>Hidrate-se ao longo do dia. Uma boa meta é entre 2 e 3 litros por dia.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥦 3. Frutas e verduras em todas as refeições</h3>
+      <p>Garantem vitaminas, minerais e fibras que reforçam a imunidade.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧺 4. Prefira naturais aos industrializados</h3>
+      <p>Menos sódio, açúcar e aditivos. Cozinhar em casa é um superpoder.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚖️ 5. Controle o tamanho das porções</h3>
+      <p>Use pratos menores e mastigue com calma para respeitar a saciedade.</p>
+    </div>
+
+    <div class="card">
+      <h3>⏰ 6. Não pule refeições</h3>
+      <p>Evita compulsão e mantém a energia estável ao longo do dia.</p>
+    </div>
+
+    <div class="card">
+      <h3>🍯 7. Reduza açúcares refinados</h3>
+      <p>Prefira doces de verdade: frutas, e eventualmente mel, com moderação.</p>
+    </div>
+
+    <div class="card">
+      <h3>🥚 8. Proteína em cada refeição</h3>
+      <p>Ovos, frango, peixe, carnes magras, feijões e grãos ajudam na saciedade e nos músculos.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎯 9. Equilíbrio acima de tudo</h3>
+      <p>Sem proibições absolutas: um doce ocasional cabe numa rotina saudável.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏃 10. Alimentação + movimento</h3>
+      <p>Combine bons hábitos com atividade física para mais energia e bem-estar.</p>
+    </div>
+  </div>
+
+  <a href="index.html">Voltar</a>
+</body>
+</html>
