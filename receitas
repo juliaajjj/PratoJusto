@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Receitas Saudáveis – PRATOjusto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e6f7f1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #1c5e40;
+      margin-bottom: 30px;
+    }
+    h3 {
+      color: #1c5e40;
+    }
+    p {
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #1c5e40;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background: #13452f;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .text {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>🥗 10 Receitas Saudáveis e Deliciosas</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/5b/96/20/5b96205dbac725a8c612ce0a1593c9ae.jpg" alt="Overnight Oats">
+      <div class="text">
+        <h3>🥣 1. Overnight Oats</h3>
+        <p>Misture aveia, leite ou iogurte, chia e frutas. Deixe na geladeira à noite e tenha um café da manhã prático e nutritivo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\Guacamole_1200x800.jpg" alt="Guacamole">
+      <div class="text">
+        <h3>🥑 2. Guacamole</h3>
+        <p>Amasse abacate com limão, tomate, cebola e sal. Sirva com torradas integrais.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\saladacolorida.jfif" alt="Salada Colorida">
+      <div class="text">
+        <h3>🥗 3. Salada Colorida</h3>
+        <p>Monte com folhas verdes, tomate, cenoura ralada, pepino e grão-de-bico. Tempere com azeite e limão.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\sopadelegumes.avif" alt="Sopa de Legumes">
+      <div class="text">
+        <h3>🍲 4. Sopa de Legumes</h3>
+        <p>Refogue cebola e alho, adicione batata-doce, cenoura, abóbora e cozinhe até ficar macio. Bata ou sirva em pedaços.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\omelete-de-frango-com-espinafre.jpg" alt="Omelete de Espinafre">
+      <div class="text">
+        <h3>🥚 5. Omelete de Espinafre</h3>
+        <p>Bata ovos, adicione espinafre picado e tomate. Cozinhe em frigideira antiaderente sem óleo.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\peixegrelhado.jfif" alt="Peixe Grelhado">
+      <div class="text">
+        <h3>🐟 6. Peixe Grelhado com Limão</h3>
+        <p>Tempere filé de peixe com limão, alho e ervas. Grelhe até dourar e sirva com salada.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\chips-de-batata-doce-1.jpg" alt="Chips de Batata-Doce">
+      <div class="text">
+        <h3>🍠 7. Chips de Batata-Doce</h3>
+        <p>Fatie batata-doce, tempere com azeite e sal, leve ao forno até ficar crocante.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\panquecadebanana.png">
+      <div class="text">
+        <h3>🍌 8. Panqueca de Banana</h3>
+        <p>Amasse 1 banana, misture com 1 ovo e 2 colheres de aveia. Frite em frigideira antiaderente.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\Receita-de-Sanduiche-Natural.jpg">
+      <div class="text">
+        <h3>🥒 9. Sanduíche Natural</h3>
+        <p>Pão integral, peito de frango desfiado, alface, tomate e cenoura ralada. Leve e saboroso.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="c:\Users\Gabriel\OneDrive\Área de Trabalho\PratoJusto\smoothie.jfif" alt="Smoothie de Frutas">
+      <div class="text">
+        <h3>🍓 10. Smoothie de Frutas</h3>
+        <p>Bata morango, banana e iogurte natural. Ótimo lanche nutritivo e refrescante.</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="index.html">⬅ Voltar para o site</a>
+</body>
+</html>
