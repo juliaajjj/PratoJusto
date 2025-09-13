@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Feiras Locais - Prato Justo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      margin: 0;
+      padding: 0;
+      color: #2f5e3d;
+    }
+
+    header {
+      padding: 20px;
+      background-color: #ffe29b; /* header amarelo */
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #2f5e3d;
+      margin-bottom: 10px;
+    }
+
+    ul.feiras {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.feiras li {
+      background-color: #c2e6c7;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    ul.feiras li:hover {
+      transform: scale(1.02);
+    }
+
+    ul.feiras li h3 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+    }
+
+    ul.feiras li p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 10px 20px;
+      background-color: #ffe29b;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #2f5e3d;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    .back-link:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: 0;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mapa de Feiras Locais - Vila Velha (ES)</h1>
+</header>
+
+<main>
+
+  <h2>Feiras Livres</h2>
+  <ul class="feiras">
+    <li>
+      <h3>Araçás</h3>
+      <p>Local: Rua Bogotá<br>Dia: Terça-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Cobilândia</h3>
+      <p>Local: Rua Jacinto Admiral<br>Dia: Terça-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Alvorada</h3>
+      <p>Local: Rua Ana Siqueira<br>Dia: Terça-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>Praia das Gaivotas</h3>
+      <p>Local: Rua Coronel Pedro Maia de Carvalho<br>Dia: Terça-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>São Torquato</h3>
+      <p>Local: Rua 29 de Julho / Tabajara<br>Dia: Quarta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Vila Nova</h3>
+      <p>Local: Rua Um<br>Dia: Quarta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Cristóvão Colombo</h3>
+      <p>Local: Rua Alcindo Guanabara<br>Dia: Quarta-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>Guaranhuns</h3>
+      <p>Local: Rua Carlos Lara<br>Dia: Quinta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Glória</h3>
+      <p>Local: Rua Agenor Barbato<br>Dia: Quinta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Soteco</h3>
+      <p>Local: Rua Tobias Barreto<br>Dia: Quinta-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>Paul</h3>
+      <p>Local: Rua Henrique Laranja<br>Dia: Sexta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Vale Encantado</h3>
+      <p>Local: Rua Praça<br>Dia: Sexta-feira<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Coqueiral de Itaparica</h3>
+      <p>Local: Rua Itaperuna / Av. Délio Silva Britto<br>Dia: Sexta-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>Alecrim</h3>
+      <p>Local: Rua Januário<br>Dia: Sexta-feira<br>Horário: 14h às 19h</p>
+    </li>
+    <li>
+      <h3>Centro</h3>
+      <p>Local: Rua Jaime Duarte Nascimento<br>Dia: Sábado<br>Horário: 7h às 12h</p>
+    </li>
+    <li>
+      <h3>Marilândia</h3>
+      <p>Local: Rua Humberto A. C. Branco<br>Dia: Sábado<br>Horário: 7h às 12h</p>
+    </li>
+  </ul>
+
+  <h2>Feiras Orgânicas</h2>
+  <ul class="feiras">
+    <li>
+      <h3>Feira de Produtos Orgânicos - Praia da Costa</h3>
+      <p>Local: Rua Maria da Penha Queiroz<br>Dia: Sábado<br>Horário: 6h às 13h</p>
+    </li>
+    <li>
+      <h3>Feira Agroecológica do Boulevard Shopping</h3>
+      <p>Local: Rod. do Sol, 5000 – Itaparica<br>Dia: Domingo<br>Horário: 8h às 13h</p>
+    </li>
+    <li>
+      <h3>Feira Agroecológica do Shopping da Terra</h3>
+      <p>Local: Av. Jerônimo Monteiro, 1690 – Centro<br>Dia: Sexta-feira<br>Horário: 9h às 16h</p>
+    </li>
+  </ul>
+
+  <h2>Mapa Interativo</h2>
+  <iframe 
+    src="https://www.google.com/maps/d/embed?mid=1n8Y7VJ4J6Xl9g9zZ9g9g9g9g9g9g9g9g" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <a href="index.html" class="back-link">← Voltar à Página Principal</a>
+
+</main>
+
+</body>
+</html>
