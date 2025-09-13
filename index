@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prato Justo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 30px 10px;
+    }
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      color: #2f5e3d;
+      font-size: 28px;
+      margin: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .card {
+      background-color: #c2e6c7; /* cor uniforme */
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    .card img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    .card p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #2f5e3d;
+    }
+    .mapa {
+      background-color: #ffe29b; /* destaque amarelo */
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+      text-decoration: none;
+      display: block;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+    .mapa:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    .mapa p {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: #2f5e3d;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://cdn-icons-png.flaticon.com/128/8494/8494729.png" alt="Logo Prato Justo">
+  <h1>PRATO JUSTO</h1>
+</header>
+
+<div class="grid">
+  <a href="receitas.html" class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/1807/1807525.png" alt="Cenoura">
+    <p>Receitas Saudáveis</p>
+  </a>
+
+  <a href="direitos.html" class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/6744/6744116.png" alt="Balança da Justiça">
+    <p>Seus Direitos na Mesa</p>
+  </a>
+
+  <a href="dicas.html" class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/4310/4310157.png" alt="Kebab">
+    <p>Dicas Legais e Nutricionais</p>
+  </a>
+
+  <a href="scanner.html" class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/3639/3639208.png" alt="Scanner">
+    <p>Scanner de Rótulos</p>
+  </a>
+</div>
+
+<a href="mapa.html" class="mapa">
+  <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Mapa" width="30">
+  <p>Mapa de Feiras Locais</p>
+</a>
+
+</body>
+</html>
