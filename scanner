@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scanner de Rótulos – PRATOjusto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e6f7f1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #1c5e40;
+    }
+    #scanner-container {
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    video {
+      width: 100%;
+      border: 2px solid #1c5e40;
+      border-radius: 10px;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #1c5e40;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a:hover {
+      background: #13452f;
+    }
+  </style>
+</head>
+<body>
+  <h1>📷 Scanner de Rótulos</h1>
+  <p>Aponte a câmera para o código de barras do produto.</p>
+
+  <div id="scanner-container">
+    <video id="video" autoplay></video>
+    <div id="result">Resultado: nenhum código detectado</div>
+  </div>
+
+  <a href="index.html">⬅ Voltar para o site</a>
+
+  <!-- Biblioteca QuaggaJS para scanner -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+  <script>
+    const resultEl = document.getElementById('result');
+
+    // Iniciar scanner
+    Quagga.init({
+      inputStream: {
+        name: "Live",
+        type: "LiveStream",
+        target: document.querySelector('#video'),
+        constraints: {
+          facingMode: "environment" // usar câmera traseira no celular
+        }
+      },
+      decoder: {
+        readers: ["ean_reader", "code128_reader", "upc_reader"] // tipos comuns de código de barras
+      }
+    }, function(err) {
+      if (err) {
+        console.error(err);
+        resultEl.textContent = "Erro ao acessar a câmera.";
+        return;
+      }
+      Quagga.start();
+    });
+
+    // Detectar código
+    Quagga.onDetected(function(data) {
+      resultEl.textContent = "Código detectado: " + data.codeResult.code;
+    });
+  </script>
+</body>
+</html>
